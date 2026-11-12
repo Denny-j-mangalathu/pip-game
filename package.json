@@ -1,0 +1,1 @@
+{"name":"pip-game","version":"1.0.0","private":true,"description":"Pip, a small black-and-white virtual pet","type":"module","scripts":{"start":"node server.js","check":"node --check server.js && node --check public/app.js"},"engines":{"node":">=22"}}
