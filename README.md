@@ -22,7 +22,7 @@ Shared rooms use an unguessable invite as a bearer credential. Invite holders ha
 
 ## GitHub Pages
 
-The included workflow deploys the public/ folder. In repository Settings, open Pages and select GitHub Actions as the source, then run the workflow. GitHub Pages supports the personal game. Shared homes require the Node server because Pages only serves static files.
+The included workflow publishes public/ to the gh-pages branch. Pages is configured to serve that branch. Changes pushed to main update the playable game automatically. GitHub Pages supports the personal game. Shared homes require the Node server because Pages only serves static files.
 
 ## Verification
 
